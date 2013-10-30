@@ -11,12 +11,12 @@ Source/Ejecta/EJUtils/
 Make sure that you include them in your build.
 
 Then in your game entity that you want to cause the phone to vibrate:
-
+````javascript
 if( window.ejecta ){
 	var vibrate = new Ejecta.Vibrate();
 	vibrate.playVibrateEffect();
 }
-
+````
 The current vibrate sound "vibrates for 3 seconds, then is delayed for 1 second.
 
 
